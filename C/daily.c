@@ -1,19 +1,24 @@
+
+#include <math.h>
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-    char c;
-    char d;
-    c = 1;
-    d = '1';
-    if (c == d)
+    int n;
+    int score;
+    int count = 0;
+    double sum = 0.0;
+    double ave;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
     {
-        printf("相等\n");
+        scanf("%d", &score);
+        sum += score;
+        if (score >= 60)
+            count += 1;
     }
-    else
-    {
-        printf("不相等\n");
-    }
-    printf("c=%d\n", c);
-    printf("d=%d\n", d);
+    ave = n != 0 ? sum / n : 0;
+    printf("average = %.1lf\n", ave);
+    printf("count = %d", count);
     return 0;
 }
