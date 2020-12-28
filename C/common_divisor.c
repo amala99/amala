@@ -26,7 +26,7 @@ int main()
 			}
 		}
 	}
-	printf("%d & %d 的最大公约数为 %d", a, b, rent);
+	printf("%d 与 %d 的最大公约数为 %d", a, b, rent);
 
 	return 0;
 }

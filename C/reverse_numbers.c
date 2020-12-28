@@ -1,11 +1,11 @@
-/*é¢ å€’æ•°å­—*/
+/*µßµ¹Êı×Ö*/
 #include<stdio.h>
 
 int main()
 {
     int x;
     int digit;
-    printf("è¯·è¾“å…¥æ•°å­—count: ");
+    printf("ÇëÊäÈëÊı×Öcount: ");
     scanf("%d", &x);
 
     int ret = 0;

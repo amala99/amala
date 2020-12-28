@@ -19,12 +19,11 @@ int main()
                 break;
             }
         }
-         if(j){
+        if(j){
         cnt++;
         sum += i;
-     }
+        }
     }
-   
         printf("%d %d", cnt, sum);
     return 0;
 }
