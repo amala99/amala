@@ -1,15 +1,15 @@
-/*µ¥Î»»»Ëã*/
+/*å•ä½æ¢ç®—*/
 #include <stdio.h> 
 int main(void)
 
 {
     double inch; 
     double cm;
-    printf("ÇëÊäÈëÓ¢´ç");
+    printf("è¯·è¾“å…¥è‹±å¯¸");
     scanf("%lf", &inch);
 
     cm = inch *2.54;
-    printf("¸ÃÓ¢´çÎª %.3lf ÀåÃ×", cm);
+    printf("è¯¥è‹±å¯¸ä¸º %.3lf å˜ç±³", cm);
 
     return 0;
 }                                       
